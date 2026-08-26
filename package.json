@@ -1,0 +1,32 @@
+{
+  "name": "@sorocrew/provider",
+  "version": "0.1.0",
+  "description": "Injected window.stellar & Freighter-compatible wallet provider SDK for Soroban dApp testing",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "stellar",
+    "soroban",
+    "freighter",
+    "provider",
+    "wallet",
+    "web3",
+    "dapp"
+  ],
+  "author": "SoroCrew",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}
