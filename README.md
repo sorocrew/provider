@@ -1,4 +1,4 @@
-# @sorocrew/provider 🔌
+# @sorocrew/provider
 
 ![SoroCrew Logo](./crew-logo-white.svg)
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 npm install @sorocrew/provider
@@ -18,12 +18,12 @@ pnpm add @sorocrew/provider
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### In your dApp Frontend
 
 ```typescript
-import { isConnected, getPublicKey, getNetwork, signTransaction } from '@sorocrew/provider';
+import { isConnected, getPublicKey, getNetwork } from '@sorocrew/provider';
 
 // Check if provider is available
 const connected = await isConnected();
@@ -40,6 +40,6 @@ window.sorocrew.on('networkChange', (details) => {
 
 ---
 
-## 📄 License
+## License
 
 MIT © [SoroCrew](https://github.com/sorocrew)

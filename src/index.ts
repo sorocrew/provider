@@ -92,7 +92,7 @@ if (typeof window !== 'undefined') {
   window.sorocrew = provider;
   window.freighter = provider;
   window.stellar = window.stellar || { freighter: provider };
-  console.log('🚀 [SoroCrew] Injected window.sorocrew & window.freighter provider!');
+  console.log('[SoroCrew] Injected window.sorocrew & window.freighter provider.');
 }
 
 export * from './types';
