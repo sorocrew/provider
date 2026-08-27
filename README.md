@@ -40,6 +40,13 @@ window.sorocrew.on('networkChange', (details) => {
 
 ---
 
+## Community & Support
+
+* **Telegram Community:** [https://t.me/sorocrew](https://t.me/sorocrew)
+* **GitHub Organization:** [https://github.com/sorocrew](https://github.com/sorocrew)
+
+---
+
 ## Contributing
 
 All pull requests should target the `dev` branch. See [CONTRIBUTING.md](./CONTRIBUTING.md) for full guidelines and [DEVELOPMENT.md](./DEVELOPMENT.md) for local setup.
