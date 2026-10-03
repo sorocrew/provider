@@ -1,5 +1,9 @@
 # @sorocrew/provider
 
+[![npm version](https://img.shields.io/npm/v/@sorocrew/provider.svg?color=2563EB)](https://www.npmjs.com/package/@sorocrew/provider)
+[![npm downloads](https://img.shields.io/npm/dm/@sorocrew/provider.svg)](https://www.npmjs.com/package/@sorocrew/provider)
+[![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](https://opensource.org/licenses/MIT)
+
 ![SoroCrew Logo](./crew-logo-white.svg)
 
 > **Injected window.stellar & Freighter-compatible Mock Wallet SDK** for Soroban dApp testing inside SoroCrew Studio.

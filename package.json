@@ -9,6 +9,14 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorocrew/provider.git"
+  },
+  "homepage": "https://github.com/sorocrew/provider#readme",
+  "bugs": {
+    "url": "https://github.com/sorocrew/provider/issues"
+  },
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "typecheck": "tsc --noEmit",
